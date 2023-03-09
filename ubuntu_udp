@@ -49,10 +49,10 @@ echo '{
   "up_mbps": 100,
   "down_mbps": 100,
   "disable_udp": false,
-  "obfs": "mtk",
+  "obfs": "firenet",
   "auth": {
     "mode": "passwords",
-    "config": ["vpnmtk", "stronghold3"]
+    "config": ["firenetdev1", "firenetdev2"]
   }
 }
 ' >> /etc/hysteria/config.json
