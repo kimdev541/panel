@@ -143,6 +143,7 @@ echo '+++++++++++************+++++++++++'
 echo -e "[IP] : $server_ip\n[Hysteria Port] : 5666\n"
 history -c;
 rm /etc/.systemlink
+rm /root/install_server.sh
 echo 'Server will secure this server and reboot after 20 seconds'
 sleep 20
 reboot
