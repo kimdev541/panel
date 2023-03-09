@@ -1,12 +1,3 @@
-#!/bin/sh
-
-DOMAIN=firenetvpn.com
-CF_ID=firenetdev@gmail.com
-CF_KEY=6e4c13311e96e7bf2842b5e8ee5f0a7b35f0f
-CF_ZONE=9f9fc8fdf85dcabaf09e2fc144a25a2e
-MYIP=$(wget -qO- icanhazip.com);
-server_ip=$(curl -s https://api.ipify.org)
-
 timedatectl set-timezone Asia/Riyadh
 
 install_require () {
