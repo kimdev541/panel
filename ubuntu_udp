@@ -38,10 +38,10 @@ echo '{
   "up_mbps": 100,
   "down_mbps": 100,
   "disable_udp": false,
-  "obfs": "rakib",
+  "obfs": "vpnudp",
   "auth": {
     "mode": "passwords",
-    "config": ["rakibhasan", "firenetdev"]
+    "config": ["vpnudp1", "firenetdev"]
   }
 }
 ' >> /etc/hysteria/config.json
